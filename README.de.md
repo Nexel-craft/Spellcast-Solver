@@ -21,7 +21,19 @@ Ein leistungsstarker 5x5 Wortlöser, der in Python mit einer modernen Benutzerob
 - **Visuelle Pfadhervorhebung**: Fahren Sie mit der Maus über ein Ergebniswort, um den Weg auf dem Raster nachzuzeichnen, oder klicken Sie darauf, um ihn dauerhaft zu fixieren. Wenn Sie einen Buchstaben tauschen müssen, wird er mit einem Sternchen `*` markiert.
 - **Internationalisierung**: UI unterstützt dynamisch Englisch, Französisch, Deutsch und Spanisch.
 
-## Installation
+## Installation & Start
+
+### Die einfache Methode
+1. Stellen Sie sicher, dass **Python 3.10+** installiert ist.
+2. Klonen oder laden Sie dieses Repository herunter.
+3. Starten Sie die Anwendung:
+   - **Windows**: Doppelklicken Sie einfach auf **`start.bat`**.
+   - **macOS**: Doppelklicken Sie auf **`start_mac.command`**. *(Hinweis: Möglicherweise müssen Sie zunächst Ausführungsrechte erteilen, indem Sie mit der rechten Maustaste klicken > "Öffnen", oder über das Terminal `chmod +x start_mac.command`)*.
+   - **Linux**: Führen Sie **`start_linux.sh`** in Ihrem Terminal aus oder doppelklicken Sie darauf, wenn Ihr Dateimanager dies unterstützt.
+
+   *Das Skript richtet automatisch die virtuelle Umgebung ein, installiert die Abhängigkeiten und startet die Anwendung!*
+
+### Die manuelle Methode (Alle Betriebssysteme)
 1. Stellen Sie sicher, dass **Python 3.10+** installiert ist.
 2. Es wird dringend empfohlen, eine virtuelle Umgebung zu verwenden:
    ```bash
@@ -34,7 +46,7 @@ Ein leistungsstarker 5x5 Wortlöser, der in Python mit einer modernen Benutzerob
    ```
 
 ## Bedienung
-Starten Sie die Benutzeroberfläche:
+Starten Sie die Benutzeroberfläche über `start.bat` (Windows) oder manuell:
 ```bash
 python solver/main.py
 ```

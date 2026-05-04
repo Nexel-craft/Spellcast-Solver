@@ -21,7 +21,19 @@ Un potente resolvedor desarrollado en Python con una interfaz gráfica moderna (
 - **Rutas resaltadas**: Pasa el ratón sobre un resultado para ver su ruta ilustrada sobre la cuadrícula, o haz clic en él para bloquear la ruta permanentemente. ¡Una letra marcada con un asterisco `*` te indica que debe ser reemplazada con un comodín!
 - **Modo oscuro/claro**: Preciosa interfaz dinámica con posibilidad de cambiar el idioma en tiempo real (Inglés, Francés, Alemán, Español).
 
-## Instalación
+## Instalación y Lanzamiento
+
+### El método fácil
+1. Asegúrate de tener instalado **Python 3.10+**.
+2. Clona o descarga este repositorio.
+3. Lanza la aplicación:
+   - **Windows**: Haz doble clic en **`start.bat`**.
+   - **macOS**: Haz doble clic en **`start_mac.command`**. *(Nota: Es posible que necesites otorgarle permisos de ejecución haciendo clic derecho > "Abrir", o mediante el terminal `chmod +x start_mac.command`)*.
+   - **Linux**: Ejecuta **`start_linux.sh`** desde tu terminal, o haz doble clic si tu administrador de archivos lo admite.
+
+   *¡El script configurará automáticamente el entorno virtual, instalará las dependencias y lanzará la aplicación!*
+
+### El método manual (Todos los SO)
 1. Asegúrate de tener instalado **Python 3.10+**.
 2. Se recomienda un entorno virtual:
    ```bash
@@ -34,7 +46,7 @@ Un potente resolvedor desarrollado en Python con una interfaz gráfica moderna (
    ```
 
 ## Cómo usar el resolvedor
-Inicia la ventana del programa:
+Inicia la ventana del programa a través de `start.bat` (Windows) o manualmente:
 ```bash
 python solver/main.py
 ```

@@ -29,8 +29,19 @@ Un puissant solveur développé en Python avec une interface graphique moderne (
 - `build_dictionary.py` : Script utilitaire utilisant `nltk` pour reconstituer un dictionnaire depuis la base WordNet.
 - `tests/test_solver.py` : Suite de tests unitaires garantissant la stabilité de la logique mathématique.
 
-## Installation
+## Installation et Lancement
 
+### La méthode simple
+1. Assurez-vous d'avoir installé **Python 3.10+**.
+2. Clonez ou téléchargez ce dépôt.
+3. Lancez l'application :
+   - **Windows** : Double-cliquez simplement sur **`start.bat`**.
+   - **macOS** : Double-cliquez sur **`start_mac.command`**. *(Note : Il peut être nécessaire de lui accorder les droits d'exécution via un clic droit > "Ouvrir", ou avec la commande `chmod +x start_mac.command`)*.
+   - **Linux** : Lancez **`start_linux.sh`** depuis un terminal, ou double-cliquez dessus si votre gestionnaire de fichiers le permet.
+
+   *Le script configurera automatiquement l'environnement virtuel, installera les dépendances et lancera l'application sans que vous n'ayez rien à faire !*
+
+### La méthode manuelle (Tous les OS)
 1. Assurez-vous d'avoir installé **Python 3.10+**.
 2. Clonez ou téléchargez ce dépôt.
 3. Il est fortement conseillé d'utiliser un environnement virtuel :
@@ -46,7 +57,7 @@ Un puissant solveur développé en Python avec une interface graphique moderne (
 
 ## Comment utiliser le solveur
 
-1. Lancer l'interface :
+1. Lancer l'interface via `start.bat` (Windows) ou manuellement :
    ```bash
    python solver/main.py
    ```

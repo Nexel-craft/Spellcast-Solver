@@ -29,8 +29,19 @@ A powerful 5x5 word solver built in Python with a modern graphical interface (`c
 - `build_dictionary.py`: A utility script that leverages the `nltk` library to fetch English lemmas and build an initial CSV dictionary from WordNet.
 - `tests/test_solver.py`: Unit test suite ensuring the reliability of the solver.
 
-## Installation
+## Installation & Launch
 
+### The Easy Way
+1. Ensure you have **Python 3.10+** installed.
+2. Clone or download this repository.
+3. Launch the application:
+   - **Windows**: Simply double-click **`start.bat`**.
+   - **macOS**: Double-click **`start_mac.command`**. *(Note: You may need to grant it execution permissions first by right-clicking it and selecting "Open", or via terminal `chmod +x start_mac.command`)*.
+   - **Linux**: Run **`start_linux.sh`** from your terminal, or double-click it if your file manager supports it.
+
+   *The script will automatically set up the virtual environment, install the necessary dependencies, and launch the application!*
+
+### The Manual Way (All OS)
 1. Ensure you have **Python 3.10+** installed.
 2. Clone or download this repository.
 3. It is highly recommended to use a virtual environment:
@@ -46,7 +57,7 @@ A powerful 5x5 word solver built in Python with a modern graphical interface (`c
 
 ## How to Use the Solver
 
-1. Start the planner by running:
+1. Start the solver by running `start.bat` (Windows) or via terminal:
    ```bash
    python solver/main.py
    ```
