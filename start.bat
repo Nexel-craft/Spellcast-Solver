@@ -27,11 +27,11 @@ call .venv\Scripts\activate.bat
 
 :: Install/Upgrade dependencies
 echo [INFO] Checking dependencies...
-pip install -r requirements.txt
+.venv\Scripts\python.exe -m pip install -r requirements.txt
 
 :: Run the application
 echo [INFO] Launching Spellcast Solver...
-python solver/main.py
+.venv\Scripts\python.exe solver/main.py
 
 :: If the program exits with an error, pause to let the user see it
 if %errorlevel% neq 0 (

@@ -28,11 +28,11 @@ source .venv/bin/activate
 
 # Install dependencies
 echo "[INFO] Checking dependencies..."
-pip install -r requirements.txt
+.venv/bin/python3 -m pip install -r requirements.txt
 
 # Run the application
 echo "[INFO] Launching Spellcast Solver..."
-python solver/main.py
+.venv/bin/python3 solver/main.py
 
 # Keep terminal open if there's an error
 if [ $? -ne 0 ]; then
